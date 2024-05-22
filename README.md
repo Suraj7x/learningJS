@@ -287,4 +287,59 @@
 // let b = new student("saket",28);
 // a.hello();
 // b.hello();
+// Inheritance class Example :
+
+// class peron{
+//     constructor(name, age){
+//         this.name=name;
+//         this.age=age;
+//     }
+//     greet(){
+//         console.log(`Hello my name is ${this.name} and my age is ${this.age}`)
+//     }
+// }
+// class employee extends peron {
+//     constructor(name,age,JobTitle)
+// {
+//     super(name,age)
+//     this.JobTitle=JobTitle;
+//     }
+//     work(){
+//         console.log(`${this.name} is working as a ${this.JobTitle}.`)
+//     }
+
+// }
+// const employee1=new employee("SURAJ",28,"STUDENT");
+// employee1.greet();
+// employee1.work();
+
+// Encapsulation :
+
+// class student
+// {
+//     constructor()
+//     {
+//         let name,marks;
+//     }
+//     getName()
+//     {
+//         return this.name;
+//     }
+//     setName(name)
+//     {
+//         this.name=name;
+//     }
+//     getMarks(){
+//         return this.marks;
+//     }
+//     setMarks(marks)
+//     {
+//         this.marks=marks;
+//     }
+// }
+// let stu =new student();
+// stu.setName("RAHMAN");
+// stu.setMarks("97");
+
+// console.log(stu.getName(),stu.getMarks());
 
