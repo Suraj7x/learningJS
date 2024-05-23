@@ -343,3 +343,9 @@
 
 // console.log(stu.getName(),stu.getMarks());
 
+//capitalizing first letter
+const names = ['suraj','rahul','rajeev'];
+const capitalize= names.map((item)=>{
+    return item[0].toUpperCase() + item.slice(1).toLowerCase();
+});
+console.log(capitalize);
