@@ -349,3 +349,12 @@ const capitalize= names.map((item)=>{
     return item[0].toUpperCase() + item.slice(1).toLowerCase();
 });
 console.log(capitalize);
+// const counter =["tarun","niru","suraj"]
+// const changeTouppercase = counter.map(counter=>counter.charAt(0).toUpperCase()+counter.slice(1));
+// console.log(changeTouppercase);
+
+// const animals=['cock','goat','hen','elephant','lion'];
+// console.log(animals.slice(1));
+
+// const animals=['ant','bison','camel','duck','elephant'];
+// console.log(animals.slice(2));
