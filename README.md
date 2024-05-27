@@ -358,3 +358,24 @@ console.log(capitalize);
 
 // const animals=['ant','bison','camel','duck','elephant'];
 // console.log(animals.slice(2));
+
+
+//filter method
+// Example 1
+// const counter = [1,2,3,4,5,6,7,8];
+// evenNo = counter.filter(x => x%2===0);
+// console.log(evenNo);
+
+// Example 2
+// const arr = ["niru", "bansal", "nitu", "ramesh"];
+// const stringFilter = arr.filter(x => 
+    
+//     x === "niru" || x === "nitu");
+
+// Example 3
+
+// console.log(stringFilter);
+// const arr = ["niru", "bansal", "suraj", "sudhanshu"];
+// const stringFilter = arr.filter(x => x.startsWith("s"));
+
+// console.log(stringFilter);
