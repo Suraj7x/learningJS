@@ -379,3 +379,8 @@ console.log(capitalize);
 // const stringFilter = arr.filter(x => x.startsWith("s"));
 
 // console.log(stringFilter);
+
+//reduce function;
+// const counter = [1,2,3,4,5,6,7,8];
+// reducing = counter.reduce((accumulator, currentValue) => accumulator + currentValue);
+// console.log(reducing);
