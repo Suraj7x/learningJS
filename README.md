@@ -384,3 +384,42 @@ console.log(capitalize);
 // const counter = [1,2,3,4,5,6,7,8];
 // reducing = counter.reduce((accumulator, currentValue) => accumulator + currentValue);
 // console.log(reducing);
+
+// example-2
+// let arr = [1,2,3,4,5,6,7,8,9];
+
+// const sum = arr.reduce((acc, curr) => {
+//     return acc + curr;
+// }, 0);
+
+// console.log(sum)
+
+// example-3
+
+// const arr = [[1,2],[3,4],[5,6],[7,8],[9,10]];
+
+
+// const flat = arr.reduce((acc, curr) => {
+
+//     return acc.concat(curr);
+// }, []);
+
+// console.log(flat)
+
+// example-4
+
+// const fname = "nirmal"
+// const lname = "singh"
+
+// const fullname = fname.concat(lname);
+
+// console.log(fullname)
+
+
+
+
+
+
+
+
+
