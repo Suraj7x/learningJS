@@ -416,6 +416,76 @@ console.log(capitalize);
 // console.log(fullname)
 
 
+// const arr = ["nirmal","rahul","saket","Suraj"];
+
+// const stringConcat = arr.reduce((acc,curr) => {
+//     return acc  + curr;
+// }, []);
+
+// console.log(stringConcat)
+
+//function to find max number
+
+// function max(arr) {
+//   let maxNum = arr[0];
+//   for (let index = 1; index < arr.length; index++) {
+
+//     console.log(arr.length)
+//     if (arr[index] > maxNum) {
+//       maxNum = arr[index];
+//     }
+//   }
+//   return maxNum;
+// }
+
+
+// let arr = [3, 4, 5, 6, 2, 1, 4, 5, 7, 22];
+// console.log(max(arr));
+
+
+//Function to sum array elements.
+// function sum(arr) {
+//   let num = 0;
+
+//   for (let index = 0; index < arr.length; index++) {
+//     num += arr[index];
+
+//     console.log(num, index);
+//   }
+//   return num;
+// }
+
+// let arr = [1, 2, 3, 4, 5, 6, 2, 1, 4, 5, 7, 8];
+
+// console.log(sum(arr))
+
+//(For Each)
+
+//It executes a function once for each array element.
+
+// const arr = [1,3,4,5,6,7,22]
+// arr.forEach(function (element) {
+//     console.log(element)
+//   }) 
+
+//slice method
+
+//let arr = [1, 2, 4, 6, 7, 8, 1];
+
+// let mobile = arr.slice(1,3) // 1 = start and 3 = end 
+
+// console.log(mobile)
+
+//splice method
+
+// let arr = [1, 2, 4, 6, 7, 8, 1];
+
+// let mob = arr.splice(2, 0, 'a','b') //  2- start - at which we start changing the array.
+//                                // 4 - deleteCount - the number of elements to remove.
+
+// console.log(mob)
+// console.log(arr)
+
 
 
 
